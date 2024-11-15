@@ -1,0 +1,21 @@
+{
+  "name": "493-as03",
+  "version": "1.0.0",
+  "description": "as-03",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Zhong Zheng",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^8.7.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "newman": "^6.1.2"
+  }
+}
